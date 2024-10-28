@@ -1,1 +1,18 @@
-<p>country-population works!</p>
+<h1>Countries</h1>
+  <table class='table table-striped' aria-labelledby="tableLabel">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>population</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td> {{ countryPopulation.id }}</td>
+          <td>{{ countryPopulation.name }}</td>
+          <td>{{ countryPopulation.population }}</td>
+        </tr>  
+      
+    </tbody>
+  </table>
